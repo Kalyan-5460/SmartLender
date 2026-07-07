@@ -1,0 +1,112 @@
+/* =====================================
+   Smart Lender CSS
+===================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+}
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    color:#0d6efd;
+    margin-bottom:20px;
+}
+
+h2{
+    color:#0d6efd;
+    margin-bottom:15px;
+}
+
+p{
+    line-height:1.7;
+    margin-bottom:15px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+label{
+    font-weight:bold;
+    margin-top:15px;
+}
+
+input,
+select{
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:16px;
+}
+
+button{
+    margin-top:25px;
+    padding:12px;
+    background:#0d6efd;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:17px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#084298;
+}
+
+.btn{
+    display:inline-block;
+    text-decoration:none;
+    padding:12px 25px;
+    background:#0d6efd;
+    color:white;
+    border-radius:6px;
+    margin-top:20px;
+}
+
+.btn:hover{
+    background:#084298;
+}
+
+.result{
+    text-align:center;
+    padding:25px;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.success{
+    color:green;
+}
+
+.failure{
+    color:red;
+}
+
+.footer{
+    text-align:center;
+    margin-top:25px;
+    color:gray;
+    font-size:14px;
+}

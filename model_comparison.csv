@@ -1,0 +1,5 @@
+Model,Training Accuracy,Testing Accuracy
+Decision Tree,100.0,79.93
+Random Forest,100.0,78.85
+KNN,82.3,69.53
+Gradient Boosting,92.92,78.14

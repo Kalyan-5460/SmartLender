@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Loan Prediction Result</h1>
+
+    {% if prediction == "Approved" %}
+
+        <div class="result success">
+            🎉 Congratulations! <br><br>
+            Loan is likely to be <b>APPROVED</b>.
+        </div>
+
+    {% else %}
+
+        <div class="result failure">
+            ❌ Sorry! <br><br>
+            Loan is likely to be <b>REJECTED</b>.
+        </div>
+
+    {% endif %}
+
+    <center>
+
+        <a href="/predict" class="btn">
+            Predict Again
+        </a>
+
+        &nbsp;&nbsp;
+
+        <a href="/" class="btn">
+            Home
+        </a>
+
+    </center>
+
+    <div class="footer">
+        <p>Smart Lender | AI & Machine Learning Project</p>
+    </div>
+
+</div>
+
+</body>
+</html>
